@@ -174,3 +174,26 @@ body{
     text-shadow: none !important;
 }
 
+@media screen and (max-width: 786px) {
+    .slide-content {
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .content_titles h2{
+        font-size: 40px;
+    }
+
+    .info_content .info-sub h3{
+        font-size: 14px;
+    }
+
+    .info_content .info-sub h1{
+        font-size: 18px;
+    }
+
+    .info_content{
+        font-size: 18px;
+    }
+}
