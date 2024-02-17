@@ -5,3 +5,57 @@
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     user-select: none;
 }
+
+body{
+    background: linear-gradient(#212730, #111214);
+    background-attachment: fixed;
+}
+
+.header,
+.footer{
+    position: relative;
+}
+
+.header_bg{
+    width: 100%;
+    height: 100vh;
+    background: url(images/dddd.svg);
+    background-size: cover;
+    justify-content: center;
+    display: flex;
+    align-content: center;
+    clip-path: circle(180vh at 50% -115vh);
+    position: absolute;
+    background-attachment: fixed;
+    top: -100px;
+    background-position: center;
+}
+
+.footer_bg{
+    width: 100%;
+    height: 100vh;
+    background: url(images/footer.svg);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: -50rem;
+    opacity: 0.1;
+    background-position: center;
+}
+
+.slide-container{
+    max-width: 1800px;
+    width: 100%;
+    padding: 40px 0;
+}
+
+.slide-content{
+    margin: 0 40px;
+    padding: 40px 0px;
+    overflow: hidden;
+    border-radius: 5px;
+    -webkit-box-reflect: below -195px -webkit-gradient(linear, left top, left bottom,
+    from(transparent), color-stop(70%, #00000000), to(rgb(250 250 250 / 40%)));
+}
